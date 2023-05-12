@@ -30,9 +30,9 @@ namespace Singleton
         private static void PrintStudentdetails()
         {
             /*
-                         * Assuming Singleton is created from student class
-                         * we refer to the GetInstance property from the Singleton class
-                         */
+            * Assuming Singleton is created from student class
+            * we refer to the GetInstance property from the Singleton class
+            */
             ThreadSafetySingleton fromStudent = ThreadSafetySingleton.GetInstance;
             fromStudent.PrintDetails("From Student2");
         }
